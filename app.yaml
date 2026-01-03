@@ -1,0 +1,18 @@
+name: www.issum.de
+type: gradio-space
+sdk: gradio
+
+metadata:
+  space_id: Chris4K/www.issum.de
+  original_url: https://huggingface.co/spaces/Chris4K/www.issum.de
+
+deploy:
+  targets:
+    - public-repo
+    - huggingface
+
+build:
+  command: bash build.sh
+
+test:
+  command: echo "Tests not yet implemented"
